@@ -1,18 +1,18 @@
 package com.java8practice;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-@SpringBootApplication
+//@SpringBootApplication
 public class Java8PracticeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Java8PracticeApplication.class, args);
+//        SpringApplication.run(Java8PracticeApplication.class, args);
 
         List<Person> personList = new ArrayList<>();
         personList.add(new Person(25, "krishna"));

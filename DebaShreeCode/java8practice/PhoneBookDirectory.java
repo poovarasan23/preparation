@@ -19,5 +19,19 @@ public class PhoneBookDirectory {
 
     private Map<String, String> phoneBookMap = PHONE_BOOK;
 
+    public Map<String, String> getPHONE_BOOK() {
+        return PHONE_BOOK;
+    }
 
+    public void setPHONE_BOOK(Map<String, String> PHONE_BOOK) {
+        this.PHONE_BOOK = PHONE_BOOK;
+    }
+
+    public Map<String, String> getPhoneBookMap() {
+        return phoneBookMap;
+    }
+
+    public void setPhoneBookMap(Map<String, String> phoneBookMap) {
+        this.phoneBookMap = phoneBookMap;
+    }
 }
