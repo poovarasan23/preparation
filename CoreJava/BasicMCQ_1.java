@@ -8,11 +8,15 @@ import java.util.LinkedList;
 public class BasicMCQ_1 {
     public static void main(String[] args) {
 //-----------------------------------------------------------------------------------
-        Integer i= new Integer(257);
+        Integer i= new Integer(128);
+        /*
+        Logic: byte holds -128 to 127. If the value goes beyond 127 it will became negative by default and
+        it will continue in circular order
+         */
         byte x = i.byteValue();
         System.out.println(x);
 //-----------------------------------------------------------------------------------
-        double a=3.1;
+        double a=3.000001;
         int b=(int) Math.ceil(a);
         System.out.println(b);
 //-----------------------------------------------------------------------------------

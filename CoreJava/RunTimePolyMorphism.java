@@ -2,7 +2,9 @@ package CoreJava;
 
 public class RunTimePolyMorphism {
     public static void main(String[] args) {
-
+/*
+Method over-riding
+ */
         X a = new X();
         int as = 2;
         double b = 3.2;

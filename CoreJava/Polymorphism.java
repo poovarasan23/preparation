@@ -2,6 +2,9 @@ package CoreJava;
 
 public class Polymorphism {
     public static void main(String[] args) {
+/*
+Method over-loading
+ */
      A1 a=new A1();
      a.print(5);
      a=new B();

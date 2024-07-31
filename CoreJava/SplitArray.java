@@ -42,6 +42,16 @@ public class SplitArray {
                 temp = 0;
                 first++;
                 if (first == cycle) {
+                    /*
+                    If the req o/p is :
+                    [0, 1, 2]
+                    [3, 4, 5]
+                    [6, 7, 8]
+                    [9, 0, 0]
+                    then
+                    change to
+                    addElemets(op, new int[s], temp, i);
+                     */
                     addElemets(op, new int[last], temp, i);
                 } else {
                     addElemets(op, new int[s], temp, i);
